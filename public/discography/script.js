@@ -1,0 +1,1 @@
+console.log("entro a discografía wiii");

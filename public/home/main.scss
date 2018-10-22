@@ -32,12 +32,49 @@ body {
         height: auto;
     }
     &__items {
-        &__link {
+        &__home{
             text-decoration: none;
             color: white;
             font-weight: 600;
             margin-left: 20px;
+            filter: brightness(100%);
         }
+        &__discography{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin-left: 20px;
+            filter: brightness(70%);
+        }
+        &__videos{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin-left: 20px;
+            filter: brightness(70%);
+        }
+        &__newsletter{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin-left: 20px;
+            filter: brightness(70%);
+
+        }
+        &__carticon{
+            height: 25px;
+            margin-left: 60px;
+            margin-right: 0;
+            filter: brightness(70%);
+        }
+        &__cart{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            filter: brightness(70%);
+            margin-left: 5px;
+        }
+
     }
 }
 
@@ -60,7 +97,7 @@ body {
 .banner {
     width: 100%;
     height: 55vw;
-    background-image: url(./home/data/images/banner1.png);
+    background-image: url(../data/images/banner1.png);
     background-size: cover;
     background-position: center;
     -webkit-transition: ease 0.5s;
@@ -91,7 +128,7 @@ main {
 
 .maindesc {
     padding: 10% 15%;
-    background-image: url(./home/data/images/desc_background.png);
+    background-image: url(../data/images/desc_background.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -172,7 +209,7 @@ main {
             top: 0;
             width: 100%;
             height: 100%;
-            background-image: url(./home/data/images/store.png);
+            background-image: url(../data/images/store.png);
             background-size: cover;
             background-position: center;
             filter: brightness(50%);
@@ -214,7 +251,7 @@ main {
             top: 0;
             width: 100%;
             height: 100%;
-            background-image: url(./home/data/images/lp_underground.png);
+            background-image: url(../data/images/lp_underground.png);
             background-size: cover;
             background-position: center;
             filter: opacity(50%);
@@ -241,7 +278,7 @@ main {
 }
 
 .video {
-    background-image: url(./home/data/images/video_section.png);
+    background-image: url(../data/images/video_section.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -260,7 +297,7 @@ main {
     }
 
     &__link {
-        background-image: url(./home/data/icons/play.png);
+        background-image: url(../data/icons/play.png);
         width: 5vw;
         height: 5vw;
         margin-top: 3vw;
@@ -270,13 +307,13 @@ main {
     }
 
     &__link:hover {
-        background-image: url(./home/data/icons/play_hover.png);
+        background-image: url(../data/icons/play_hover.png);
     }
 }
 
 .discography {
     padding: 0;
-    background-image: url(./home/data/images/discography_section.png);
+    background-image: url(../data/images/discography_section.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -374,7 +411,7 @@ $change-button-size: 28px;
                 align-items: center;
 
                 &__play {
-                    background-image: url(./home/data/icons/reproduction/play.png);
+                    background-image: url(../data/icons/reproduction/play.png);
                     background-size: cover;
                     width: $play-stop-button-size;
                     height: $play-stop-button-size;
@@ -382,12 +419,12 @@ $change-button-size: 28px;
                     margin: 0 30px;
 
                     &:hover {
-                        background-image: url(./home/data/icons/reproduction/onplay.png);
+                        background-image: url(../data/icons/reproduction/onplay.png);
                     }
                 }
 
                 &__stop {
-                    background-image: url(./home/data/icons/reproduction/pause.png);
+                    background-image: url(../data/icons/reproduction/pause.png);
                     background-size: cover;
                     width: $play-stop-button-size;
                     height: $play-stop-button-size;
@@ -395,7 +432,7 @@ $change-button-size: 28px;
                     margin: 0 30px;
 
                     &:hover {
-                        background-image: url(./home/data/icons/reproduction/onpause.png);
+                        background-image: url(../data/icons/reproduction/onpause.png);
                     }
                 }
 
@@ -405,11 +442,11 @@ $change-button-size: 28px;
                     background-size: cover;
 
                     &--next {
-                        background-image: url(./home/data/icons/reproduction/next.png);
+                        background-image: url(../data/icons/reproduction/next.png);
                     }
 
                     &--before {
-                        background-image: url(./home/data/icons/reproduction/before.png);
+                        background-image: url(../data/icons/reproduction/before.png);
                     }
                 }
             }
@@ -418,7 +455,7 @@ $change-button-size: 28px;
 }
 
 .newsletter {
-    background-image: url(data/images/newsletter_section.png);
+    background-image: url(../data/images/newsletter_section.png);
     width: 100%;
     height: 38vw;
     padding: 5% 0;
@@ -490,7 +527,7 @@ $change-button-size: 28px;
 .footer {
     width: 100%;
     height: 18vw;
-    background-image: url(./home/data/images/footer_section.png);
+    background-image: url(../data/images/footer_section.png);
     background-position: center;
     padding: 2% 15%;
     display: flex;

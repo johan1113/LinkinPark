@@ -16,14 +16,14 @@ window.onscroll = function () {
 var bannerOne = {
   text: 'WATCH THE MUSIC VIDEO',
   link: 'https://www.youtube.com/watch?v=Tm8LGxTLtQk',
-  image: 'url(./home/data/images/banner1.png)',
+  image: 'url(./data/images/banner1.png)',
 };
 
 //Almacena todas las propiedades e informacion de la imagen del banner #2
 var bannerTwo = {
   text: 'WATCH THE LIVE VIDEO',
   link: 'https://www.youtube.com/watch?v=4W_YgNW7gs0',
-  image: 'url(./home/data/images/banner2.png)',
+  image: 'url(./data/images/banner2.png)',
 };
 
 //Arreglo encargado de almacenar los objetos contenedore de informacion de cada version del banner

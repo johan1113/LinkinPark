@@ -21,7 +21,11 @@ app.get('/', function(request, response){
     response.render('home');
 });
 
-app.listen(5500);
+app.get('/discography', function(request, response){
+    response.render('discography');
+});
+
+app.listen(3000);
 /*
 //instalo body-parser para sacar deatos con post(convierte informacion del body a variables)
 //importo body-parser
